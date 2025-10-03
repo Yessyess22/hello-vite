@@ -1,2 +1,2 @@
 # Vite project
-This is a sample of vite project
+This is a sample of a vite project
