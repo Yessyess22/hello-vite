@@ -10,12 +10,8 @@ const saludo = document.getElementById('saludo');
 titulo.textContent = '¡Bienvenido al mundo del DOM!';
 descripcion.style.color = 'gray';
 
-// Arreglar el botón de color - agregar colores aleatorios
 botonColor.addEventListener('click', () => {
-  const colores = ['#ff6b6b', '#4ecdc4', '#45b7d1', '#96ceb4', '#ffeaa7', '#fd79a8', '#fdcb6e'];
-  const color = colores[Math.floor(Math.random() * colores.length)];
   document.body.style.backgroundColor = color;
-  console.log('Color cambiado a:', color);
 });
 
 botonTexto.addEventListener('click', () => {
